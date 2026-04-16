@@ -174,9 +174,29 @@
 
 //5-masala
 
-let yil = +prompt("yil kiriting");
-if (yil % 4 === 0) {
-  console.log("kabisa yili");
-} else {
-  console.log("Oddiy yil");
-}
+// let yil = +prompt("yil kiriting");
+// if (yil % 4 === 0) {
+//   console.log("kabisa yili");
+// } else {
+//   console.log("Oddiy yil");
+// }
+
+//===================================================================================
+
+//6-masala
+
+// let num = +prompt("son kiriting");
+// let num1 = +prompt("son kiriting");
+
+// let min = (num < num1 && num) || num1;
+// console.log(`eng kichik son: ${min}`);
+
+//=================================================================================
+
+//7-masala
+
+//var: eski usul. 2015-yildagi ES6 o'zgarishdan so'ng o'rnini tartibli let va constga bo'shatib ebrdi. varni kamchiliklari varni qayta e'lon qilsa bo'ladi, o'zidan tepada e'lon qilsa bo'ladi
+
+//let: qayta e'lon qilib bo'lmaydi, qiymat ozgartirish mumkin, o'zidan tepada e'lon qilib bo'lmaydi
+
+//const: qayta e'lon qilib bo'lmaydi, qiymat ozgartirish mumkin emas, o'zidan tepada e'lon qilib bo'lmaydi
