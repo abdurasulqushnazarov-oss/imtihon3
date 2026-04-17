@@ -175,10 +175,10 @@
 //5-masala
 
 // let yil = +prompt("yil kiriting");
-// if (yil % 4 === 0) {
+// if ((yil % 100 !== 0 && yil % 4 === 0) || yil % 400 === 0) {
 //   console.log("kabisa yili");
 // } else {
-//   console.log("Oddiy yil");
+//   console.log("oddiy yil");
 // }
 
 //===================================================================================
